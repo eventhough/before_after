@@ -1,0 +1,15 @@
+animateIntro  – whether or not to have the drag bar start completely to the right of the container and gradually move by itself to the midpoint (default  false)
+introDelay – if animateIntro is true, the number of milliseconds to wait before beginning the automatic drag bar move to the center of the image (default  1000)
+introDuration – if animateIntro is true, the number of milliseconds it will take for the drag bar to go from the right side of the image to the middle of the image (default 1000)
+showFullLinks – whether or not to display links below the image that a visitor can click on that will automatically show the full before or full after image (default true)
+imagePath – the path (absolute or relative) to where you store the navigation images (default ‘/js/beforeAfter/’)
+introPosition – where the draggable separator should appear when the plugin loads as a fraction of the overall width (default .5). For example, .25 would have the draggable separator appear 1/4th of the way on the left of the image.
+beforeLinkText – used with the showFullLinks option, this is the text used for the before image link (default  ‘Show only before’)
+afterLinkText – used with the showFullLinks option, this is the text used for the after image link (default  ‘Show only after’)
+cursor – the CSS style of the cursor when pointing to the drag handle (default ‘pointer’)
+clickSpeed – the speed (in milliseconds) for a click animation to complete (default 600)
+linkDisplaySpeed- the speed (in milliseconds) for a link animation to complete (default 200)
+dividerColor – the CSS hex color of the divider bar (default ‘#888′)
+enableKeyboard – enable keyboard control using the left and right arrowd (default false)
+keypressAmount – if enableKeyboard is true, the number of pixels to move the divider on each keypress (default 20)
+onReady – a callback function that is triggered when the plugin is ready to be used
