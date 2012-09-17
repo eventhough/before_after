@@ -1,0 +1,12 @@
+.beforeafter {
+	display:none;
+}
+
+.balinks { margin-bottom: 20px; }
+.balinks a:hover { text-decoration: underline; }
+.balinks a {
+	font-family: 'Helvetica', sans-serif;
+	font-size:12px;
+	color: #009DDC;
+	text-decoration: none;
+}
